@@ -1,0 +1,23 @@
+<div class="container-margin">
+  <ion-header class="header-style">
+    <ion-toolbar>
+      <ion-row class="ion-align-items-center ">
+        <ion-col size="3"><a routerLink="/home" class="back-button ion-margin-start"><ion-icon size="small"
+              name="arrow-back-outline"></ion-icon>Back</a></ion-col>
+        <ion-col size="5">
+          <div class="ion-text-center">CS Fundamentals</div>
+        </ion-col>
+        <ion-col size="4"><ion-badge class="trophy-badge"><ion-icon class="trophy-icon"
+              name="trophy-outline"></ion-icon><span class="trophy-text">0 points</span></ion-badge> </ion-col>
+        <!-- <trophy -->
+      </ion-row>
+    </ion-toolbar>
+  </ion-header>
+</div>
+
+<ion-content>
+  <div *ngFor="let LearnData of learn">
+    <app-card-template [data]="LearnData">
+    </app-card-template>
+  </div>
+</ion-content>

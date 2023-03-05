@@ -1,0 +1,153 @@
+[
+    {
+      "type": "LmsItemType.VIDEO",
+      "url": "BpmaRdZBMqI",
+      "title": "Design Thinking  part-1",
+      "order": 1
+    } ,
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "xUP6bM-h5fQ",
+      "title": "Design Thinking  part-2",
+      "order": 2
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "wIYusrZ2CYg",
+      "title": "Design Thinking  part-3",
+      "order": 3
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "z3nb4mg7emA",
+      "title": "Design Thinking  part-4",
+      "order": 4
+    },
+    {
+        "type": "LmsItemType.DOCUMENT",
+      "url": "https://drive.google.com/file/d/1-IZTj8fNEVKuFBZIn0mHnI-QkVAzLDvC/view?usp=share_link",
+      "title": "Technology and World-Reading material",
+      "order": 5
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "q5I91D2WgW4",
+      "title": "Design Thinking  part-5",
+      "order": 6
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "kERl2DJnWd0",
+      "title": "Design Thinking  part-6",
+      "order": 7
+    },
+    {
+        "type": "LmsItemType.DOCUMENT",
+      "url": "https://drive.google.com/file/d/1zqe-iwUcQgrhm8W-TVZZc8tmHhpFp_Lu/view?usp=share_link",
+      "title": "Design Thinking-Reading material",
+      "order": 8
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "1wF2I20rocE",
+      "title": "Introduction to Scratch",
+      "order": 9
+    },
+    {
+        "type": "LmsItemType.DOCUMENT",
+      "url": "https://drive.google.com/file/d/189oVmWP2EEXa01hqhnVIsLBbg-zPFkr7/view?usp=share_link",
+      "title": "Introduction to Scratch-Reading material",
+      "order": 10
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "NhI51egN9OM",
+      "title": "Sequencing 1.0",
+      "order": 11
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "usamSV3OU48",
+      "title": "Sequencing 1.1",
+      "order": 12
+    },
+    {
+        "type": "LmsItemType.DOCUMENT",
+      "url": "https://drive.google.com/file/d/1qzCLPy2ca0uetS4WkmaP1Le7-V6q7YRq/view?usp=share_link",
+      "title": "Sequencing-Reading material",
+      "order": 13
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "YpLUOzDztvw",
+      "title": "Algorithms 1.0",
+      "order": 14
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "mIdUx-sOUm8",
+      "title": "Algorithms 1.1",
+      "order": 15
+    },
+    {
+        "type": "LmsItemType.DOCUMENT",
+      "url": "https://drive.google.com/file/d/1kU7f6-qZ1SjIA1OA6uYRNgFve467pUxU/view?usp=share_link",
+      "title": "Algorithms-Reading material",
+      "order": 16
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "oyzQiUms8Ac",
+      "title": "Looping 1.0",
+      "order": 17
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "YjL08-L0TBg",
+      "title": "Looping 1.1",
+      "order": 18
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "NlKO5AYBCwo",
+      "title": "Looping 1.2",
+      "order": 19
+    },
+    {
+        "type": "LmsItemType.DOCUMENT",
+      "url": "https://drive.google.com/file/d/19vnlAp-WHg3FETQVTWGjiJVdgHzNesiv/view?usp=share_link",
+      "title": "Looping Reading Material",
+      "order": 20
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "p0mFhnUGwuE",
+      "title": "Variables 1.0",
+      "order": 21
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "oDjkSJxj5t8",
+      "title": "Variables 1.1",
+      "order": 22
+    },
+    {
+        "type": "LmsItemType.DOCUMENT",
+      "url": "https://drive.google.com/file/d/1qsy6YjJSnIc63Fo_31-Pgt5iP8Xyje9I/view?usp=share_link",
+      "title": "Variables-Reading material",
+      "order": 23
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "6xUCVNebfik",
+      "title": "Conditions 1.0",
+      "order": 24
+    },
+    {
+        "type": "LmsItemType.VIDEO",
+      "url": "jc13a8Aehv4",
+      "title": "Conditions 1.1",
+      "order": 25
+    }
+   ]
+   

@@ -1,20 +1,44 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<!-- <div class="ion-page " id="main-content"> -->
+<div class="container-margin">
+  <ion-header class="header-style">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-buttons slot="end">
+        <ion-menu-button menu="main-menu"></ion-menu-button>
+      </ion-buttons>
+      <ion-row class="ion-align-items-center ion-justify-content-between">
+        <span class="ion-margin-start">Hi, Rahul</span>
+        <ion-badge class="trophy-badge" ><ion-icon class="trophy-icon" name="trophy-outline"></ion-icon><span class="trophy-text">0 points</span></ion-badge>
+      </ion-row>
     </ion-toolbar>
   </ion-header>
+</div>
+  <ion-content class="no-scroll ion-padding" slot="end" side="end">
+    <a routerLink="/learning">
+      <ion-grid class="learning-grid">
+        <ion-row class="learn">
+          <ion-col size="2" class="home-template "><ion-icon class="learn-icon"
+              name="caret-forward-outline"></ion-icon></ion-col>
+          <ion-col size="9" class="home-template ion-text-uppercase"><div class="learn-text"><div class="learn-bold-text">Learn</div> <div class="learn-small-text">or</div> <div class="learn-bold-text">Resume</div> </div></ion-col>
+        </ion-row>
+      </ion-grid>
+    </a>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+    <ion-grid class="ion-text-center">
+      <ion-row>
+        <ion-col class="home-template learn-course"><ion-icon class="icon-template" name="book-outline"></ion-icon>
+          <div class="template-text ion-text-uppercase">learn Course</div>
+        </ion-col>
+        <ion-col class="home-template create-open-lab"><ion-icon class="icon-template" name="create-outline"></ion-icon>
+          <div class="template-text ion-text-uppercase">Create open labs</div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="home-template build-tinker"><ion-icon class="icon-template" name="settings-outline"></ion-icon>
+          <div class="template-text ion-text-uppercase">Build tinker</div>
+        </ion-col>
+        <ion-col class="home-template share-comunity"><ion-icon class="icon-template" name="people-outline"></ion-icon>
+          <div class="template-text ion-text-uppercase">Share comunity</div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>

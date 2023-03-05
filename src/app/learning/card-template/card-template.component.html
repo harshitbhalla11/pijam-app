@@ -1,0 +1,18 @@
+<div class="card-container">
+  <ion-card>
+    <ion-card-header>
+      <span class="title">{{data.title}}</span>
+    </ion-card-header>
+    <div class="content-container">
+      <div class="video-container" *ngIf="checkType(data.type); else elseBlock">
+        <iframe [src]="getUrl(data.url) | safe" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
+      </div>
+      <ng-template #elseBlock>
+        <div class="document-container">
+          <a  class="document-anchor" [href]="getUrl(data.url)"><ion-icon  class="document-icon" name="document-outline"></ion-icon> {{data.title}}</a>
+        </div>
+      </ng-template>
+    </div>
+  </ion-card>
+</div>

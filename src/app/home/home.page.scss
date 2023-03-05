@@ -1,27 +1,103 @@
-#container {
+
+* {
+  color: white;
+}
+.no-scroll {
+  --overflow: hidden;
+}
+
+ion-toolbar {
+  --background: #5DCFD0;
+}
+.learn{
+  background-color: #62CCA4;
+  border-radius: 7px;
+  margin: 5px
+}
+
+.learn-course{
+background-color: #5DCFD0;
+margin-bottom: 10px;
+}
+.create-open-lab{
+background-color: #47A0A4;
+}
+.build-tinker{
+background-color: #62CCA4;
+}
+.share-comunity{
+background-color: #4EA986;
+}
+.home-template{
+  margin: 5px;
+  border-radius: 7px;
+}
+.text-center{
+  float: left;
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 90%;
+}
+.play-icon{
+  width: 150px
+}
+.icon-template{
+  font-size: 45px;
+}
+.learn-icon{
+  font-size: 80px;
 }
 
-#container strong {
+.template-text{
+  font-size: 12px;
+  width: 70px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.header-style{
+	border-radius: 13px;
+		overflow: hidden;
+}
+.trophy-icon{
+    width: 15px;
+  }
+  .trophy-text{
+    color: black;
+    padding-bottom: 2px;
+    margin-left: 2px;
+  }
+  .trophy-badge{
+    margin-right: 20px;
+    background-color:#47A0A4;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  ion-toolbar {
+    --background: #5DCFD0;
+  }
+  .container-margin{
+    
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .learn-text{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+.learn-bold-text{
   font-size: 20px;
-  line-height: 26px;
+  font-weight: bold;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.learn-small-text{
+  font-size: 12px;
+  text-transform: lowercase;
 }
+.open-lab{
 
-#container a {
-  text-decoration: none;
+}
+.template-2{
+  border: 2px solid #000;
 }

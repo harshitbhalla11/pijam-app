@@ -1,0 +1,109 @@
+.side-menu-content{
+    --background: #F8FAF9;   
+}
+.grid-container{
+    color: white;
+}
+.student-icon{
+    width: 40px;
+    position: relative;
+    left:10px;
+    top: 10px;
+}
+.student-icon-background{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+}
+.name{
+    
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.teacher{
+    font-size: small;
+    color: grey;
+    font-weight: 100;
+    margin-top: 5px;
+}
+.total-points{
+    background-color: #FFA940;
+    
+}
+.badge-earned{
+    background-color: #36CFCA;
+    
+}
+.coming-soon{
+    background-color: #B37FEB;
+    
+}
+.cs-course{
+    background-color: #539DFE;
+    
+}
+.template-row{
+    border-radius: 5px;
+    min-height: 50px;
+}
+
+.no-scroll {
+    --overflow: hidden;
+  }
+.small-text{
+    margin-top: 2px;
+    font-size: 12px;
+}
+.course-for-teacher{
+    margin-top: 7px;
+}
+// .template-icon{
+//  width: 50px;  
+// }
+.background{
+    background-color: #E5E8F6;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 5px;
+}
+.open-lab-icon{
+    color: #768DDF;
+    position: relative;
+    font-size: 26px;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+.open-lab-icon-arror{
+    font-size: 20px;
+    margin-top: 8px;
+}
+.template-row{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.hour-of-code-icon-arror{
+    font-size: 20px;
+    margin-top: 8px;
+}
+.hour-of-code-icon{
+    color: black;
+    position: relative;
+    font-size: 26px;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+.hour-of-code--background{
+    background-color: #FCF0D6;
+}
+.hour-of-code{
+    border:1px solid #E4E6E6;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.open-lab{
+    border-radius: 5px;
+    border:1px solid #E4E6E6;
+}
+.bold-text{
+    font-weight: 600;
+}
